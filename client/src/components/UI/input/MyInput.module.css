@@ -1,0 +1,9 @@
+.myInput {
+    background-color: white;
+    color: black;
+    border: 2px solid #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+}

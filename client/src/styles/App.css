@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.event {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event_btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.participant {
+    padding: 15px;
+    border: 2px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.participantList {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.searchBar {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+.page__wrapper {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
