@@ -4,6 +4,6 @@
   "routes": [
     {"src": "/api/event", "dest": "/routes/event.routes.js"},
     {"src": "/api/participant", "dest": "/routes/participant.routes.js"},
-    {"src": "/(.*)", "dest": "/"}
+    {"src": "/(.*)", "dest": "/routes/event.routes.js"}
   ]
 }
